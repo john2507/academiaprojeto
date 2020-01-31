@@ -1,0 +1,29 @@
+{
+  "name": "academia",
+  "version": "1.0.0",
+  "description": "Neste desafio você deverá desenvolver uma api que retorna um currículo dinâmico. Para isso, você deverá comunicar-se com dois serviços para capturar informações. A api do Facebook e a api do Github.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/john2507/desafio-academia-node-ficr.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/john2507/desafio-academia-node-ficr/issues"
+  },
+  "homepage": "https://github.com/john2507/desafio-academia-node-ficr#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "consign": "^0.1.6",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "nodemon": "^2.0.2"
+  }
+}
